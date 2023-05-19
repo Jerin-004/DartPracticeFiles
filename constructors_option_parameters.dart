@@ -10,6 +10,7 @@ class Employee {
       [
         this.subject="Computer Science",
         this.salary=200000
+      
       ]
 
       );
@@ -25,4 +26,5 @@ class Employee {
 void main(){
   Employee jerin = Employee("Chijith Jeirn S", 19);
   jerin.display();
+
 }
