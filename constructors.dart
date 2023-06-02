@@ -7,6 +7,7 @@ class Person {
   Person(this.name,this.age,this.salary,this.subject);
 
   void display(){
+    print("Look out youself");
     print("Name: ${this.name}");
     print("Age: ${this.age}");
     print("Subject: ${this.subject}");
